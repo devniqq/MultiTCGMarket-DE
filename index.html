@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MultiTCGMarket - Europas Online-Marktplatz für Sammelkarten</title>
+    <meta
+      name="description"
+      content="MultiTCGMarket - Europas Online-Marktplatz für Sammelkarten. Kaufe und verkaufe Pokémon, One Piece und Yu-Gi-Oh! Karten sicher und schnell."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="topbar">
+        <div class="container topbar-inner">
+          <span>Willkommen bei MultiTCGMarket</span>
+          <div class="topbar-links">
+            <a href="#">Anmelden</a>
+            <a href="#">Registrieren</a>
+            <button class="cart-button" type="button">🛒 Warenkorb</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container nav-wrap">
+        <div class="brand">🃏 MultiTCGMarket</div>
+        <nav class="main-nav" aria-label="Hauptnavigation">
+          <a href="#home" class="active">Home</a>
+          <a href="#pokemon">Pokémon</a>
+          <a href="#onepiece">One Piece</a>
+          <a href="#yugioh">Yu-Gi-Oh!</a>
+          <a href="#marktplatz">Marktplatz</a>
+          <a href="#uber-uns">Über uns</a>
+        </nav>
+        <div class="search-box">
+          <input type="text" placeholder="Karten suchen..." aria-label="Karten suchen" />
+          <button type="button">Suchen</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <span class="eyebrow">Europas Online-Marktplatz für Sammelkarten</span>
+            <h1>Mehr Auswahl. Mehr Sicherheit. Mehr Spaß beim Sammeln.</h1>
+            <p>
+              Kaufen und verkaufen Sie Pokémon-, One Piece- und Yu-Gi-Oh!-Karten
+              auf einem modernen Markt, der genau zu Sammlern und Händlern passt.
+            </p>
+            <div class="hero-actions">
+              <button class="primary-btn" type="button">Jetzt entdecken</button>
+              <button class="secondary-btn" type="button">Verkaufen</button>
+            </div>
+            <ul class="hero-stats">
+              <li><strong>3.080+</strong><span>Karten</span></li>
+              <li><strong>1.250+</strong><span>Verkäufer</span></li>
+              <li><strong>95.000+</strong><span>Käufer</span></li>
+            </ul>
+          </div>
+          <div class="hero-panel" aria-label="Marktplatzvorschau">
+            <div class="mini-card card-gold">
+              <span class="tag">Holo</span>
+              <strong>Charizard EX</strong>
+              <span>€24,99</span>
+            </div>
+            <div class="mini-card card-red">
+              <span class="tag">Ultra Rare</span>
+              <strong>Blue-Eyes</strong>
+              <span>€89,99</span>
+            </div>
+            <div class="mini-card card-blue">
+              <span class="tag">Secret Rare</span>
+              <strong>Monkey D. Luffy</strong>
+              <span>€32,00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories section-spacing">
+        <div class="container">
+          <div class="section-heading">
+            <p>Wähle deine Kategorie</p>
+            <h2>Pokémon, One Piece und Yu-Gi-Oh! – alles an einem Ort</h2>
+          </div>
+          <div class="category-grid">
+            <article class="category-card pokemon" id="pokemon">
+              <div class="category-image">🔴</div>
+              <h3>Pokémon</h3>
+              <p>Gotta Catch ’em All!</p>
+              <span>1.250+ Angebote</span>
+            </article>
+            <article class="category-card onepiece" id="onepiece">
+              <div class="category-image">🏴‍☠️</div>
+              <h3>One Piece</h3>
+              <p>Auf dem Weg zum König der Piraten</p>
+              <span>850+ Angebote</span>
+            </article>
+            <article class="category-card yugioh" id="yugioh">
+              <div class="category-image">⚡</div>
+              <h3>Yu-Gi-Oh!</h3>
+              <p>Zeit zum Duel!</p>
+              <span>980+ Angebote</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="market section-spacing" id="marktplatz">
+        <div class="container">
+          <div class="section-heading left">
+            <p>Beliebte Angebote</p>
+            <h2>Neu auf dem Markt</h2>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="thumb thumb-pokemon">
+                <span class="badge">Holo</span>
+                <div class="thumb-icon">🔴</div>
+              </div>
+              <div class="card-body">
+                <h3>Charizard EX</h3>
+                <p>Scarlet & Violet</p>
+                <div class="meta-row">
+                  <span class="price">€24,99</span>
+                  <span class="condition">Sehr gut</span>
+                </div>
+                <button type="button">In den Warenkorb</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="thumb thumb-onepiece">
+                <span class="badge">Secret Rare</span>
+                <div class="thumb-icon">🏴‍☠️</div>
+              </div>
+              <div class="card-body">
+                <h3>Monkey D. Luffy</h3>
+                <p>Starter Deck</p>
+                <div class="meta-row">
+                  <span class="price">€32,00</span>
+                  <span class="condition">Mint</span>
+                </div>
+                <button type="button">In den Warenkorb</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="thumb thumb-yugioh">
+                <span class="badge">Ultra Rare</span>
+                <div class="thumb-icon">⚡</div>
+              </div>
+              <div class="card-body">
+                <h3>Blue-Eyes White Dragon</h3>
+                <p>Unlimited</p>
+                <div class="meta-row">
+                  <span class="price">€89,99</span>
+                  <span class="condition">Perfekt</span>
+                </div>
+                <button type="button">In den Warenkorb</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="thumb thumb-pokemon-alt">
+                <span class="badge">Holo</span>
+                <div class="thumb-icon">⚡</div>
+              </div>
+              <div class="card-body">
+                <h3>Pikachu VMAX</h3>
+                <p>Crown Zenith</p>
+                <div class="meta-row">
+                  <span class="price">€18,50</span>
+                  <span class="condition">Gut</span>
+                </div>
+                <button type="button">In den Warenkorb</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="thumb thumb-onepiece-alt">
+                <span class="badge">Rare</span>
+                <div class="thumb-icon">🗡️</div>
+              </div>
+              <div class="card-body">
+                <h3>Roronoa Zoro</h3>
+                <p>Promo Pack</p>
+                <div class="meta-row">
+                  <span class="price">€15,50</span>
+                  <span class="condition">Sehr gut</span>
+                </div>
+                <button type="button">In den Warenkorb</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="thumb thumb-yugioh-alt">
+                <span class="badge">Ultra Rare</span>
+                <div class="thumb-icon">🔮</div>
+              </div>
+              <div class="card-body">
+                <h3>Dark Magician</h3>
+                <p>1st Edition</p>
+                <div class="meta-row">
+                  <span class="price">€75,50</span>
+                  <span class="condition">Mint</span>
+                </div>
+                <button type="button">In den Warenkorb</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="features section-spacing" id="uber-uns">
+        <div class="container">
+          <div class="section-heading center">
+            <p>Warum MultiTCGMarket?</p>
+            <h2>Der sichere Marktplatz für Sammler und Händler</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-box">
+              <div class="feature-icon">🛡️</div>
+              <h3>Sichere Transaktionen</h3>
+              <p>Vertrauenswürdige Käuferschutz- und Versand-Standards für jeden Einkauf.</p>
+            </article>
+            <article class="feature-box">
+              <div class="feature-icon">💬</div>
+              <h3>Verkäuferratings</h3>
+              <p>Bewertungen, Verifizierungen und transparente Händlerinformationen.</p>
+            </article>
+            <article class="feature-box">
+              <div class="feature-icon">🚚</div>
+              <h3>Schneller Versand</h3>
+              <p>Versand in Europa mit nachvollziehbarer Sendungsverfolgung.</p>
+            </article>
+            <article class="feature-box">
+              <div class="feature-icon">🌍</div>
+              <h3>Europaweit</h3>
+              <p>Mehrere Länder, mehr Händler und ein großer europäischer Sammelmarkt.</p>
+            </article>
+            <article class="feature-box">
+              <div class="feature-icon">📦</div>
+              <h3>Perfekte Verpackung</h3>
+              <p>Sauber, sicher und sorgfältig verpackt, damit Karten im optimalen Zustand ankommen.</p>
+            </article>
+            <article class="feature-box">
+              <div class="feature-icon">📱</div>
+              <h3>Modernes Erlebnis</h3>
+              <p>Eine intuitive Oberfläche, die auf Desktop, Tablet und Smartphone funktioniert.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-band">
+        <div class="container stats-grid">
+          <div>
+            <strong>3.080+</strong>
+            <span>Aktive Kartenangebote</span>
+          </div>
+          <div>
+            <strong>1.250+</strong>
+            <span>Verkäufer</span>
+          </div>
+          <div>
+            <strong>95.000+</strong>
+            <span>Zufriedene Käufer</span>
+          </div>
+          <div>
+            <strong>3</strong>
+            <span>Hauptkategorien</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter section-spacing">
+        <div class="container newsletter-inner">
+          <div>
+            <p>Erhalte exklusive Deals</p>
+            <h2>Bleib immer auf dem Laufenden</h2>
+          </div>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Deine E-Mail-Adresse" aria-label="E-Mail-Adresse" />
+            <button type="submit">Abonnieren</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">🃏 MultiTCGMarket</div>
+          <p>Europas Online-Marktplatz für Sammelkarten.</p>
+        </div>
+        <div>
+          <h4>Top-Kategorien</h4>
+          <ul>
+            <li><a href="#pokemon">Pokémon</a></li>
+            <li><a href="#onepiece">One Piece</a></li>
+            <li><a href="#yugioh">Yu-Gi-Oh!</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Unternehmen</h4>
+          <ul>
+            <li><a href="#">Über uns</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Hilfe</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Rechtliches</h4>
+          <ul>
+            <li><a href="#">Datenschutz</a></li>
+            <li><a href="#">Nutzungsbedingungen</a></li>
+            <li><a href="#">Impressum</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2024 MultiTCGMarket. Alle Rechte vorbehalten.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
